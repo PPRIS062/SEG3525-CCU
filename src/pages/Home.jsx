@@ -35,7 +35,7 @@ function Home() {
           <div className="card">
 
             <img
-              src="/images/professionnels.jpg"
+              src={`${import.meta.env.BASE_URL}images/professionnels.jpg`} 
               alt="Coiffeurs professionnels"
               className="card-image"
             />
@@ -51,7 +51,7 @@ function Home() {
           <div className="card">
 
             <img
-              src="/images/produits.jpg"
+              src={`${import.meta.env.BASE_URL}images/produits.jpg`} 
               alt="Produits capillaires"
               className="card-image"
             />
@@ -67,7 +67,7 @@ function Home() {
           <div className="card">
 
             <img
-              src="/images/accueil.jpg"
+              src={`${import.meta.env.BASE_URL}images/accueil.jpg`}
               alt="Accueil chaleureux"
               className="card-image"
             />

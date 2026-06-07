@@ -4,35 +4,35 @@ function Services() {
     {
       name: "Coupe Homme",
       price: "25$",
-      image: "/images/hommes.jpeg",
+      image: `${import.meta.env.BASE_URL}images/hommes.jpeg`,
       description:
         "Coupe moderne ou classique adaptée à votre style."
     },
     {
       name: "Coupe Femme",
       price: "45$",
-      image: "/images/femmes.jpeg",
+      image: `${import.meta.env.BASE_URL}images/femmes.jpeg`,
       description:
         "Coupe personnalisée et conseils professionnels."
     },
     {
       name: "Coupe Enfant",
       price: "20$",
-      image: "/images/enfants.jpg",
+      image: `${import.meta.env.BASE_URL}images/enfants.jpg`,
       description:
         "Une expérience agréable pour les plus jeunes."
     },
     {
       name: "Coloration",
       price: "70$",
-      image: "/images/coloration.jpeg",
+      image: `${import.meta.env.BASE_URL}images/coloration.jpeg`,
       description:
         "Coloration durable réalisée par des experts."
     },
     {
       name: "Mise en plis",
       price: "35$",
-      image: "/images/miseenplis.jpeg",
+      image: `${import.meta.env.BASE_URL}images/miseenplis.jpeg`,
       description:
         "Coiffure élégante pour toutes les occasions."
     }
